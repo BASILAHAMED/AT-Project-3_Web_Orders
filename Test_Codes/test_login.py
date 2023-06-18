@@ -18,7 +18,7 @@ class TestLogin:
     
     def test_login1(self, launch_driver):
         self.driver.get(self.url)
-        self.driver.find_element(by=By.XPATH, value=login_data.ElementLocators.xpath_username).send_keys(login_data.LoginData.username1)
+        self.driver.find_element(by=By.XPATH, value=login_data.ElementLocators.xpath_username).send_keys(login_data.LoginData.username1) # verify with username1
         self.driver.find_element(by=By.XPATH, value=login_data.ElementLocators.xpath_password).send_keys(login_data.LoginData.password1)
         self.driver.find_element(by=By.XPATH, value=login_data.ElementLocators.xpath_login).click()
         warning = self.driver.find_element(by=By.XPATH, value=login_data.ElementLocators.xpath_invalid_login).text
