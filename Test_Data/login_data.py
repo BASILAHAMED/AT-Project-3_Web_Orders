@@ -1,4 +1,5 @@
 class LoginData:
+    # testing with all possible username password combinations
     # combo1
     username1 = 'Tester'
     password1 = 'password'
