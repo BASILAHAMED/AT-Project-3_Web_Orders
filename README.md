@@ -7,4 +7,4 @@
 http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Login.aspx
 ```
 
-Login and Logout features are validated using the python selenium test script.
+Login and Logout features are validated using the Python Selenium test script.
