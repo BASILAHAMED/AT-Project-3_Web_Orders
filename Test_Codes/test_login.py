@@ -60,5 +60,5 @@ class TestLogin:
         self.driver.implicitly_wait(4)
         self.driver.find_element(by=By.XPATH, value=login_data.ElementLocators.xpath_logout).click()
         username_box = self.driver.find_element(by=By.XPATH, value=login_data.ElementLocators.xpath_username_box).text
-        assert username_box == 'Username:'
+        assert username_box == 'Username:' 
         print("SUCCESS # LOGGED OUT")
